@@ -1,0 +1,75 @@
+    /* For desktop: */ 
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+} 
+    /*for medium screen*/
+@media screen and (max-width: 845px) {
+    .body {
+        width: 100vw;
+        height: auto;
+        margin: auto;
+    }   
+}
+/*@media screen and (max-width: 1150px) {
+    #help_text {
+        width: 130%;
+        height: auto;
+        margin: auto;
+    }   
+}*/
+
+
+#main_bg{
+    background: linear-gradient(178deg,rgb(18, 133, 58),rgba(0, 0, 0, 0.938),rgba(0, 0, 0, 0.938),rgba(0, 0, 0, 0.938),rgba(0, 0, 0, 0.938));   
+    border-style: transparent;
+    border-radius: 0em,0em,5em,0em;
+    
+}
+  
+#support_text{
+    font-size: 1.2rem;
+    width:60%;
+    height: auto;
+}
+    #nav{
+    margin-right: 70px;
+}
+#help_text{
+    font-family: helvetica, Arial, sans-serif;
+    font-size: 6.5vh;
+    line-height: 9vh;
+    letter-spacing: -0.09rem;
+    font-weight: 900;
+    word-wrap: break-word;
+    min-width: 170px;
+    height: auto;
+}
+
+.inputWithIcon input[type=text]{
+    padding-left: 45px;
+}
+.inputWithIcon{
+    position: relative;
+}
+button{
+    border-radius: 3rem; 
+    border: transparent;
+    background-color:rgb(22, 163, 71);
+    margin-left: 8rem;
+    margin-top: 5vh
+}
+button:hover{
+    background-color: rgb(47, 218, 107);
+    transform: translateY(3px);   
+}
